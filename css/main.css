@@ -1,0 +1,773 @@
+@charset "utf-8";
+
+/* 지마켓산스 폰트 */
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 강원교육튼튼체 */
+@font-face {
+    font-family: 'GangwonEduPowerExtraBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    padding-top: 140px;
+    background-color: white;
+}
+
+#slider {
+    width: 100%;
+    height: auto;
+}
+
+#slider img {
+    width: 100%;
+}
+
+#one {
+    width: 1183.2px;
+    height: 190px;
+    margin: 0 auto;
+    padding: 15px 0 20px 0;
+}
+
+.one_title {
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.one_firstline {
+    width: 1183.2px;
+    height: 90px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+}
+
+.one_firstline div {
+    width: 150px;
+    height: 50px;
+    border: 1px solid #d3d3d3;
+    line-height: 50px;
+    text-align: center;
+}
+
+.one_firstline div a {
+    font-weight: bold;
+}
+
+.one_secondline {
+    width: 1183.2px;
+    height: 90px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+}
+
+.one_secondline div {
+    width: 150px;
+    height: 50px;
+    border: 1px solid #d3d3d3;
+    line-height: 50px;
+    text-align: center;
+}
+
+.one_secondline div a {
+    font-weight: bold;
+}
+
+#two {
+    width: 1183.2px;
+    height: 610px;
+    margin: 0 auto;
+}
+
+#two>img:nth-of-type(1) {
+    width: 575px;
+    height: 610px;
+    position: absolute;
+    left: 0;
+}
+
+#section2 {
+    width: 1000px;
+    height: 572px;
+    float: right;
+    margin-top: 38px;
+}
+
+#section2 h1 {
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+.outertext {
+    position: relative;
+    left: 265px;
+}
+
+.outertext li {
+    float: left;
+    margin: 10px;
+    font-family: arial;
+    font-size: 18px;
+}
+
+.outertext>li:nth-of-type(1)>a:nth-of-type(1) {
+    color: #c4ab96;
+    font-weight: bold;
+}
+
+.outertext>li:nth-of-type(1)>a:not(:nth-of-type(1)) {
+    color: #333;
+    font-weight: normal;
+}
+
+.outerbox {
+    width: 858px;
+    height: 456px;
+    float: right;
+}
+
+.outerbox div {
+    display: inline-block;
+}
+
+.outer1box {
+    width: 270px;
+    height: 456px;
+}
+
+.outer1box img {
+    width: 270px;
+    height: 350px;
+}
+
+.outer1box p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.outer1box h3 {
+    font-size: 17px;
+    padding-left: 8px;
+}
+
+.outer1box p:nth-of-type(1) {
+    color: #ff6347;
+    font-weight: bold;
+}
+
+.outer1boxtext {
+    border-top: solid 1px #333;
+    width: 262px;
+    margin-top: 6px;
+    padding-left: 8px;
+}
+
+.outer2box {
+    width: 270px;
+    height: 456px;
+    margin-left: 28px;
+}
+
+.outer2box img {
+    width: 270px;
+    height: 350px;
+}
+
+.outer2box p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.outer2box h3 {
+    font-size: 17px;
+    padding-left: 8px;
+}
+
+.outer2box p:nth-of-type(1) {
+    color: #ff6347;
+    font-weight: bold;
+}
+
+.outer2boxtext {
+    border-top: solid 1px #333;
+    width: 262px;
+    margin-top: 6px;
+    padding-left: 8px;
+}
+
+.outer3box {
+    width: 250px;
+    height: 456px;
+    margin-left: 28px;
+}
+
+.outer3box img {
+    width: 250px;
+    height: 350px;
+}
+
+.outer3box p:nth-of-type(2) {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-top: 5px;
+}
+
+.outer3box h3 {
+    font-size: 17px;
+    padding-left: 5px;
+}
+
+.outer3box p:nth-of-type(1) {
+    color: #ff6347;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.outer3boxtext {
+    border-top: solid 1px #333;
+    width: 245px;
+    margin-top: 6px;
+    padding-left: 5px;
+}
+
+
+#three {
+    width: 1183.2px;
+    height: 200px;
+    margin: 0 auto;
+    clear: both;
+}
+
+/* 배너 4개 */
+#three>div:not(:nth-of-type(4)) {
+    float: left;
+    margin-top: 50px;
+    margin-right: 65px;
+}
+
+#coupon {
+    width: 247px;
+    height: 98px;
+    background: #ffd2d9;
+}
+
+#coupon img {
+    width: 70px;
+    position: relative;
+    top: 18px;
+    left: 14px;
+}
+
+#coupon span {
+    font-family: 'GmarketSansMedium';
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    left: 10px;
+    bottom: 14px;
+}
+
+#free {
+    width: 247px;
+    height: 98px;
+    background-color: #b7f1ff;
+}
+
+#free img {
+    width: 70px;
+    position: relative;
+    top: 23px;
+    left: 12px;
+}
+
+#free span {
+    font-family: 'GmarketSansMedium';
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    left: 15px;
+    top: 7px;
+}
+
+#photo {
+    width: 247px;
+    height: 98px;
+    background: #ededed;
+}
+
+#photo img {
+    width: 63px;
+    position: relative;
+    top: 20px;
+    left: 12px;
+    float: left;
+}
+
+#photo span {
+    font-family: 'GmarketSansMedium';
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+    position: relative;
+    top: 27px;
+    left: 33px;
+}
+
+#talk {
+    width: 247px;
+    height: 98px;
+    float: right;
+    position: relative;
+    top: 50px;
+    background: #ffe344;
+}
+
+#talk img {
+    width: 63px;
+    position: relative;
+    top: 20px;
+    left: 12px;
+}
+
+#talk span {
+    font-family: 'GmarketSansMedium';
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    left: 25px;
+    bottom: 10px;
+}
+
+#four {
+    width: 1183.2px;
+    height: 640px;
+    margin: 0 auto;
+}
+
+/* 원피스 */
+#four>img:nth-of-type(1) {
+    width: 575px;
+    height: 640px;
+    position: absolute;
+    right: 0;
+}
+
+#four h1 {
+    text-align: center;
+    position: relative;
+    top: 13px;
+}
+
+.section4 {
+    width: 1000px;
+    height: 582px;
+    float: left;
+    margin-top: 58px;
+}
+
+.dresstext>li:nth-of-type(2)>a:nth-of-type(1) {
+    color: #c4ab96;
+    font-weight: bold;
+}
+
+.dresstext li {
+    float: left;
+    font-family: arial;
+    font-size: 18px;
+    margin: 10px;
+    position: relative;
+    left: 235px;
+}
+
+.dressbox {
+    float: left;
+    width: 900px;
+    height: 458px;
+}
+
+.dressbox>div {
+    float: left;
+}
+
+.dressbox>div:not(:nth-of-type(3)) {
+    margin-right: 30px;
+}
+
+.dress1box {
+    width: 280px;
+    height: 458px;
+}
+
+.dress1box img {
+    width: 280px;
+    height: 350px;
+}
+
+.dress1box h3 {
+    font-size: 17px;
+    padding: 1px 0 4px 8px;
+}
+
+.dress1text {
+    width: 280px;
+    height: 75px;
+    display: inline-block;
+    border-top: solid 1px #333;
+}
+
+.dress1text p {
+    font-size: 15px;
+    padding: 2px 0 2px 0px;
+    margin: 5px 7px 0 7px;
+}
+
+.dress2box {
+    width: 280px;
+    height: 458px;
+}
+
+.dress2box img {
+    width: 280px;
+    height: 350px;
+}
+
+.dress2box h3 {
+    font-size: 17px;
+    padding: 1px 0 4px 8px;
+}
+
+.dress2text {
+    width: 280px;
+    height: 75px;
+    border-top: solid 1px #333;
+}
+
+.dress2text p {
+    font-size: 15px;
+    padding: 2px 0 2px 0px;
+    margin: 5px 7px 0 7px;
+}
+
+.dress3box {
+    width: 280px;
+    height: 458px;
+}
+
+.dress3box img {
+    width: 280px;
+    height: 350px;
+}
+
+.dress3box h3 {
+    font-size: 17px;
+    padding: 1px 0 4px 8px;
+}
+
+.dress3text {
+    width: 280px;
+    height: 75px;
+    border-top: solid 1px #333;
+}
+
+.dress3text p {
+    font-size: 15px;
+    padding: 2px 0 2px 0px;
+    margin: 5px 7px 0 7px;
+}
+
+#five {
+    width: 1400px;
+    height: 420px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 35px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+#five .middlebox {
+    width: auto;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.middlebox>p {
+    font-size: 30px;
+    font-family: 'GangwonEduPowerExtraBoldA';
+    font-weight: 1000;
+    color: #866849;
+}
+
+.middlebox1>p {
+    font-size: 14px;
+    width: auto;
+    margin: 0 auto;
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+
+#six {
+    width: 1183.2px;
+    height: 760px;
+    margin: 0 auto;
+}
+
+.sixbox h1 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.firstline {
+    width: 1183.2px;
+    height: 270px;
+    margin-top: 20px;
+}
+
+.firstline>div:nth-of-type(1) {
+    float: left;
+}
+
+.firstline>div:nth-of-type(2) {
+    float: right;
+}
+
+.disline {
+    width: 570px;
+    height: 270px;
+}
+
+.disline img {
+    width: 335px;
+    height: 229px;
+    float: left;
+    margin-top: 22px;
+}
+
+.dislinetext {
+    text-align: center;
+    width: 235px;
+    height: 185px;
+    float: right;
+    margin-top: 50px;
+}
+
+.dislinetext h1 {
+    font-family: 'GangwonEduPowerExtraBoldA';
+    font-size: 33px;
+    display: inline-block;
+    margin-top: 7px;
+}
+
+.dislinetext p {
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 5px;
+    text-align: left;
+    width: 200px;
+}
+.togedis {
+    width: 570px;
+    height: 270px;
+}
+.togedis img {
+    width: 335px;
+    height: 229px;
+    float: left;
+    margin-top: 22px;
+}
+.togetext {
+    text-align: center;
+    width: 235px;
+    height: 185px;
+    float: right;
+    margin-top: 50px;
+}
+.togetext h1 {
+    font-family: 'GangwonEduPowerExtraBoldA';
+    font-size: 33px;
+    display: inline-block;
+    margin-top: 7px;
+}
+.togetext p {
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 5px;
+    text-align: left;
+    width: 200px;
+}
+
+.secondline {
+    width: 1183.2px;
+    height: 270px;
+    margin-top: 30px;
+}
+.secondline>div:nth-of-type(1) {
+    float: left;
+}
+.secondline>div:nth-of-type(2) {
+    float: right;
+}
+.poo {
+    width: 570px;
+    height: 270px;
+}
+.poo img {
+    width: 335px;
+    height: 229px;
+    float: left;
+    margin-top: 22px;
+}
+.pootext {
+    text-align: center;
+    width: 235px;
+    height: 185px;
+    float: right;
+    margin-top: 50px;
+}
+.pootext h1 {
+    font-family: 'GangwonEduPowerExtraBoldA';
+    font-size: 33px;
+    display: inline-block;
+    margin-top: 7px;
+    margin-right: 25px;
+}
+.pootext p {
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 5px;
+    text-align: left;
+    width: 200px;
+}
+
+.mento {
+    width: 570px;
+    height: 270px;
+}
+.mento img {
+    width: 335px;
+    height: 229px;
+    float: left;
+    margin-top: 22px;
+}
+.mentotext {
+    text-align: center;
+    width: 235px;
+    height: 185px;
+    float: right;
+    margin-top: 50px;
+}
+.mentotext h1 {
+    font-family: 'GangwonEduPowerExtraBoldA';
+    font-size: 33px;
+    display: inline-block;
+    margin-top: 7px;
+    margin-right: 25px;
+}
+.mentotext p {
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 5px;
+    text-align: left;
+    width: 200px;
+}
+
+.buttondiv {
+    text-align: center;
+    margin-top: 20px;
+}
+.button {
+    padding: 20px 15px 15px;
+    border: solid 3px #333;
+    display: inline-block;
+    border-radius: 40px;
+    background: white;
+    font-family: 'GangwonEduPowerExtraBoldA';
+    color: #333;
+}
+
+#seven {
+    width: 100%;
+    height: 240px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    background: #af8989;
+}
+#seven img {
+    width: 1155px;
+    height: 240px;
+    opacity: 0.8;
+}
+
+.emailbox {
+    position: absolute;
+    top: 50%;
+    right: 13%;
+    transform: translate(-30%, -50%);
+}
+.email {
+    width: 530px;
+    padding: 20px;
+    border-radius: 40px;
+    color: gray;
+    text-align: left;
+    background: ghostwhite;
+    float: left;
+}
+.emailbox button {
+    width: 140px;
+    padding: 20px;
+    border-radius: 40px;
+    border: none;
+    background-color: #c4ab96;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.emailbox input {
+    border: none;
+    width: 520px;
+    background: ghostwhite;
+    font-size: 17px;
+    outline: none;
+}
+.emailbox-text {
+    width: 240px;
+    font-size: 35px;
+    color: white;
+    display: inline-block;
+    position: relative;
+    right: 975px;
+    top: -85px;
+    font-family: Arial;
+    text-align: justify;
+}
+.emailbox-text>span {
+    font-weight: bold;
+}
